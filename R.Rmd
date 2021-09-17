@@ -1,0 +1,30 @@
+---
+output: 
+  html_document:
+    includes:
+      in_header: "img/header.html"
+---
+<style type="text/css">
+.main-container {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+# Shiny: PCA and Databases with Pokemon
+
+I spent much of my time at PNC Bank building web apps using R Shiny. Many of them involve PII data and are thus lost to the public. One application is alive and well for public consumption, however. That application is about Databases and Pokemon.
+
+View it in full screen [here](https://marshallp.shinyapps.io/pokeshiny/){target="_blank"} (it's better)
+
+Don't forget to submit your favorite Pokemon!
+
+```{r PokemonApp, message=FALSE, echo=FALSE, fig.width=13}
+knitr::include_url(
+  "https://marshallp.shinyapps.io/pokeshiny/",
+  height = '900px'
+  )
+```
+
+

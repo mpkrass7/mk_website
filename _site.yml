@@ -1,0 +1,17 @@
+name: "my-website"
+navbar:
+  title: "Marshall Krassenstein"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "R"
+      href: R.html
+    - text: "Python"
+      href: python.html
+    - text: "Tableau"
+      href: tableau.html
+    - text: "CV"
+      href: cv.html
+output:
+  html_document:
+    theme: darkly

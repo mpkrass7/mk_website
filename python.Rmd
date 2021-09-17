@@ -1,0 +1,25 @@
+---
+output: 
+  html_document:
+    includes:
+      in_header: "img/header.html"
+      after_body: "embed/footer.html"
+---
+<style type="text/css">
+.main-container {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+
+## Python (Streamlit)
+
+View it in full screen [here](https://share.streamlit.io/mpkrass7/solid-octo-robot/migration_app.py){target="_blank"} (it's better)
+
+```{r MigrationApp, message=FALSE, echo=FALSE, fig.align = 'left', fig.width=13}
+knitr::include_app(
+  "https://share.streamlit.io/mpkrass7/solid-octo-robot/migration_app.py",
+  height = '900px'
+  )
+```

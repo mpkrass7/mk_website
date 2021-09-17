@@ -1,0 +1,21 @@
+---
+output: 
+  html_document:
+    includes:
+      in_header: "img/header.html"
+      after_body: "embed/footer.html"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# About Me
+
+Hi I'm Marshall. I'm glad you're here.
+
+Have you ever had your ass waxed? It hurts, but then it feels good. Real good.
+Well that is like our next show. Presenting.. Tenacious D
+
+
+
