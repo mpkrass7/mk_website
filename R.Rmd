@@ -3,6 +3,7 @@ output:
   html_document:
     includes:
       in_header: "img/header.html"
+      after_body: "embed/footer.html"
 ---
 <style type="text/css">
 .main-container {
@@ -12,9 +13,11 @@ output:
 }
 </style>
 
-# Shiny: PCA and Databases with Pokemon
+# Analyzing and surveying Pokemon data using PCA, Databases and Shiny
 
-I spent much of my time at PNC Bank building web apps using R Shiny. Many of them involve PII data and are thus lost to the public. One application is alive and well for public consumption, however. That application is about Databases and Pokemon.
+I spent much of my time at PNC Bank building web apps using R Shiny. One particular application that ate many hours of my time was called the 'WEASEL'. Effectively it was a Shiny app that served as a CRUD application for submitting project management workflow in Treasury Management. If it sounds boring, you're right operationally but the app building piece of it was pretty fun. This application unfortunately involves PII data and is thus lost to the public. 
+
+As a result of my foray into persistent data storage, however, I decided to make a different app that is alive and well for public consumption, and it is very much about Pokemon. In addition to the database piece I have a pretty pithy analysis page that uses Principal Component Analysis to put Pokemon on a two-dimensional plane for some directional comparison. Ever wonder how similar Psyduck is to Bulbasaur? You can find that out here!
 
 View it in full screen [here](https://marshallp.shinyapps.io/pokeshiny/){target="_blank"} (it's better)
 

@@ -32,6 +32,9 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
 <link rel="shortcut icon" href="img/rubber_duck_favi.png" />
 
 <style type="text/css">
@@ -58,6 +61,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -243,23 +247,52 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">
+    <span class="fas fa-home"></span>
+     
+    Home
+  </a>
 </li>
-<li>
-  <a href="R.html">R</a>
-</li>
-<li>
-  <a href="python.html">Python</a>
-</li>
-<li>
-  <a href="tableau.html">Tableau</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-gear"></span>
+     
+    Some Projects
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="R.html">R</a>
+    </li>
+    <li>
+      <a href="python.html">
+        <span class="ion ion-social-python"></span>
+         
+        Python
+      </a>
+    </li>
+    <li>
+      <a href="tableau.html">
+        <span class="ion ion-logo-tableau"></span>
+         
+        Tableau
+      </a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="cv.html">CV</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="contact.html">
+    <span class="fas fa-info"></span>
+     
+    Contact
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->

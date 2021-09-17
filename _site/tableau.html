@@ -32,6 +32,9 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
 <link rel="shortcut icon" href="img/rubber_duck_favi.png" />
 
 <style type="text/css">
@@ -58,6 +61,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -243,23 +247,52 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">
+    <span class="fas fa-home"></span>
+     
+    Home
+  </a>
 </li>
-<li>
-  <a href="R.html">R</a>
-</li>
-<li>
-  <a href="python.html">Python</a>
-</li>
-<li>
-  <a href="tableau.html">Tableau</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-gear"></span>
+     
+    Some Projects
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="R.html">R</a>
+    </li>
+    <li>
+      <a href="python.html">
+        <span class="ion ion-social-python"></span>
+         
+        Python
+      </a>
+    </li>
+    <li>
+      <a href="tableau.html">
+        <span class="ion ion-logo-tableau"></span>
+         
+        Tableau
+      </a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="cv.html">CV</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="contact.html">
+    <span class="fas fa-info"></span>
+     
+    Contact
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -280,29 +313,24 @@ $(document).ready(function () {
 <!--   margin-right: auto; -->
 <!-- } -->
 <!-- </style> -->
-<div id="tableau" class="section level2">
-<h2>Tableau</h2>
-<p>View it in full screen <a href="https://public.tableau.com/app/profile/marshall3251/viz/LendingClubDefaultPredictor-DataRobot/MainDash?publish=yes" target="_blank">here</a> (it’s better)</p>
-</div>
-
-<div class='tableauPlaceholder' id='viz1631826429009' style='position: relative'><noscript><a href='#'><img alt=' '
+<div id="predicting-high-risk-loans-with-tableau-and-datarobot" class="section level2">
+<h2>Predicting High Risk Loans with Tableau and DataRobot</h2>
+<p>At least as of September 2021 when I built this website, I worked at DataRobot (I might still be working at DataRobot. The future is harder to predict than our Sales folks like to say it is when you use our platform. Time Series classification specifically -i.e. will Marshall be working at DataRobot in 100 days?- is an even harder forecasting problem).</p>
+<p>Anyway, at DataRobot I work as a <strong>Customer Facing Data Scientist</strong>. My job is essentially to show prospective clients our product, answer technical questions and generally be a passenger on the company hype train.</p>
+<p>One dataset we all work with is called the ‘Lending Club’ dataset. Lending club is this micro-lending platform where a person can apply for a loan and individual people can choose to finance the loan in return for interest. Ideally, you want to know if the loan will be paid back or else you would lose money rather than gain money. Thus, the dataset makes for a great Proof of Concept for machine learning.</p>
+<p>I whipped up the dashboard below to show for client demos. While it’s neither my most sophisticated nor favorite creation, I think it looks and it shows the output of the models I built. IMO, great website fodder.</p>
+<p>View it in full screen <a href="https://public.tableau.com/app/profile/marshall3251/viz/LendingClubDefaultPredictor-DataRobot/MainDash?publish=yes" target="_blank">here</a> (it’s better and also loads faster)</p>
+<div id="viz1631826429009" class="tableauPlaceholder" style="position: relative">
+<noscript>
+<a href='#'><img alt=' '
                 src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Le&#47;LendingClubDefaultPredictor-DataRobot&#47;MainDash&#47;1_rss.png'
-                style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
-        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
-        <param name='embed_code_version' value='3' />
-        <param name='site_root' value='' />
-        <param name='name' value='LendingClubDefaultPredictor-DataRobot&#47;MainDash' />
-        <param name='tabs' value='yes' />
-        <param name='toolbar' value='yes' />
-        <param name='static_image'
-            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Le&#47;LendingClubDefaultPredictor-DataRobot&#47;MainDash&#47;1.png' />
-        <param name='animate_transition' value='yes' />
-        <param name='display_static_image' value='yes' />
-        <param name='display_spinner' value='yes' />
-        <param name='display_overlay' value='yes' />
-        <param name='display_count' value='yes' />
-        <param name='language' value='en-US' />
-    </object></div>
+                style='border: none' /></a>
+</noscript>
+<object class="tableauViz" style="display:none;">
+<param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /> <param name='name' value='LendingClubDefaultPredictor-DataRobot&#47;MainDash' /> <param name='tabs' value='yes' /> <param name='toolbar' value='yes' /> <param name='static_image'
+            value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Le&#47;LendingClubDefaultPredictor-DataRobot&#47;MainDash&#47;1.png' /> <param name='animate_transition' value='yes' /> <param name='display_static_image' value='yes' /> <param name='display_spinner' value='yes' /> <param name='display_overlay' value='yes' /> <param name='display_count' value='yes' /> <param name='language' value='en-US' />
+</object>
+</div>
 <script type='text/javascript'>
     var divElement = document.getElementById('viz1631826429009');
     var vizElement = divElement.getElementsByTagName('object')[0];
@@ -314,6 +342,8 @@ $(document).ready(function () {
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
 </script>
+</div>
+
 
 
 

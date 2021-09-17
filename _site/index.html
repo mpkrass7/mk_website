@@ -32,6 +32,9 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/ionicons-2.0.1/css/ionicons.min.css" rel="stylesheet" />
 <link rel="shortcut icon" href="img/rubber_duck_favi.png" />
 
 <style type="text/css">
@@ -58,6 +61,7 @@ if (window.hljs) {
 
 
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -243,23 +247,52 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">
+    <span class="fas fa-home"></span>
+     
+    Home
+  </a>
 </li>
-<li>
-  <a href="R.html">R</a>
-</li>
-<li>
-  <a href="python.html">Python</a>
-</li>
-<li>
-  <a href="tableau.html">Tableau</a>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fas fa-gear"></span>
+     
+    Some Projects
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="R.html">R</a>
+    </li>
+    <li>
+      <a href="python.html">
+        <span class="ion ion-social-python"></span>
+         
+        Python
+      </a>
+    </li>
+    <li>
+      <a href="tableau.html">
+        <span class="ion ion-logo-tableau"></span>
+         
+        Tableau
+      </a>
+    </li>
+  </ul>
 </li>
 <li>
   <a href="cv.html">CV</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="contact.html">
+    <span class="fas fa-info"></span>
+     
+    Contact
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -273,15 +306,35 @@ $(document).ready(function () {
 </div>
 
 
-<div id="about-me" class="section level1">
-<h1>About Me</h1>
-<p>Hi I’m Marshall. I’m glad you’re here.</p>
-<p>Have you ever had your ass waxed? It hurts, but then it feels good. Real good. Well that is like our next show. Presenting.. Tenacious D</p>
+<div id="hi-im-marshall.-im-glad-youre-here." class="section level3">
+<h3>Hi, I’m Marshall. I’m glad you’re here.</h3>
+<div class="row">
+<div class="col-md-6">
+<p><img src="img/me_photo.jpg" alt="Photo of me" style="height:500px;"></p>
+</div>
+<div class="col-md-6">
+<p><br><br></p>
+<p>Seriously, I am happy you came to visit. I love building things that people want to look at even if they only stop by for a minute or two.</p>
+<div id="want-to-make-your-own-website" class="section level4">
+<h4>Want to make your own Website?</h4>
+<p>It’s easier than you’d think (unless you do this routinely in which case you probably have a better grasp than I do). I love teaching others too, so if you’re still with me I can show you how to make your own website that you can put pretty much whatever you want on.</p>
+<p>All you have to do is follow Yihui’s excellent documentation in the R Markdown Definitive guide here: <a href="https://bookdown.org/yihui/rmarkdown/websites.html" class="uri">https://bookdown.org/yihui/rmarkdown/websites.html</a></p>
+<p>Or if you prefer pithy commentary, feel free to follow the tutorial on my Medium article (MARSHALL DON’T FORGET TO WRITE THE MEDIUM ARTICLE AAARGG)</p>
+</div>
+<div id="about-me" class="section level3">
+<h3>About me</h3>
+<p>I’m a Pythonista, R Pirate, SQL Monkey and Data Nerd. I’m also an expert with some BI tools like Tableau and Alteryx but I tell everyone I hate using them because I think coding is more fun.</p>
+</div>
+</div>
+</div>
 </div>
 
 &nbsp;
 <hr />
-<p style="text-align: center;">A work by <a href="https://github.com/mpkrass7">Marshall Krassenstein</a></p>
+<p style="text-align: center;">A webpage lovingly crafted by <a href="https://github.com/mpkrass7">Marshall
+        Krassenstein</a></br>
+    Built using RMarkdown (yup, that's it!)
+</p>
 <p style="text-align: center;"><span style="color: #808080;"><em>mpkrass@gmail.com</em></span></p>
 
 <!-- Add icon library -->

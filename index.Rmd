@@ -10,12 +10,33 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# About Me
+### Hi, I'm Marshall. I'm glad you're here.
 
-Hi I'm Marshall. I'm glad you're here.
 
-Have you ever had your ass waxed? It hurts, but then it feels good. Real good.
-Well that is like our next show. Presenting.. Tenacious D
+<div class = "row">
+  
+<div class = "col-md-6">
+  <img src="img/me_photo.jpg" alt="Photo of me" style="height:500px;">
+</div>
+<div class = "col-md-6">
+<br><br>
 
+Seriously, I am happy you came to visit. I love building things that people want to look at even if they only stop by for a minute or two. 
+
+#### Want to make your own Website?
+
+It's easier than you'd think (unless you do this routinely in which case you probably have a better grasp than I do). I love teaching others too, so if you're still with me I can show you how to make your own website that you can put pretty much whatever you want on.
+
+All you have to do is follow Yihui's excellent documentation in the R Markdown Definitive guide here: https://bookdown.org/yihui/rmarkdown/websites.html
+
+Or if you prefer pithy commentary, feel free to follow the tutorial on my Medium article (MARSHALL DON'T FORGET TO WRITE THE MEDIUM ARTICLE AAARGG)
+
+### About me
+I'm a Pythonista, R Pirate, SQL Monkey and Data Nerd. I'm also an expert with some BI tools like Tableau and Alteryx but I tell everyone I hate using them because I think coding is more fun.
+
+
+</div>
+
+</div>
 
 

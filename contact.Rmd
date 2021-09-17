@@ -1,0 +1,21 @@
+---
+output: 
+  html_document:
+    includes:
+      in_header: "img/header.html"
+      after_body: "embed/footer.html"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# How to get in touch with me:
+
+**Professional Methods:** See the 'CV' section to look at my resume and find the established professional methods of contact
+
+**Less Profressional Methods:** For unprofessional methods, I will remember you favorably if you send me food or maybe buy me a book? We could also play Rocket League together! I don't know, my girlfriend says I shouldn't even have an 'Unprofesssional Methods' section in my website.
+
+
+
+

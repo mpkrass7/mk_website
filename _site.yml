@@ -3,15 +3,26 @@ navbar:
   title: "Marshall Krassenstein"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
-    - text: "R"
-      href: R.html
-    - text: "Python"
-      href: python.html
-    - text: "Tableau"
-      href: tableau.html
+    - text: "Some Projects"
+      icon: fa-gear
+      menu:
+      - text: "R"
+        href: R.html
+      - text: "Python"
+        icon: ion-social-python
+        href: python.html
+      - text: "Tableau"
+        icon: ion-logo-tableau
+        href: tableau.html
     - text: "CV"
       href: cv.html
+  right:
+    - text: "Contact"
+      icon: fa-info
+      href: contact.html
 output:
   html_document:
     theme: darkly
+    css: styles.css
