@@ -5,7 +5,7 @@ output:
       in_header: "img/header.html"
 ---
 
-Want a CV that's a little more exciting? [Click here:](https://public.tableau.com/app/profile/marshall3251/viz/TableauVisualResume/MyTableauVisualResume){target="_blank"}
+Below is my professional CV but I made [this one](https://public.tableau.com/app/profile/marshall3251/viz/TableauVisualResume/MyTableauVisualResume){target="_blank"} a while ago and I think it's a little more exciting 
 
 ```{r out.height = "1000px", out.width='900px', echo=F}
 knitr::include_graphics("./embed/MarshallKrassenstein_Resume.pdf")

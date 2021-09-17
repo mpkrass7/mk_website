@@ -25,9 +25,9 @@ Seriously, I am happy you came to visit. I love building things that people want
 
 #### Want to make your own Website?
 
-It's easier than you'd think (unless you do this routinely in which case you probably have a better grasp than I do). I love teaching others too, so if you're still with me I can show you how to make your own website that you can put pretty much whatever you want on.
+It's easier than you'd think. I love teaching others too, so if you're still with me I can show you how to make your own website that you can put anything from blogs to links to other projects to just embedded apps and videos.
 
-All you have to do is follow Yihui's excellent documentation in the R Markdown Definitive guide here: https://bookdown.org/yihui/rmarkdown/websites.html
+All you have to do is follow one chapter of Yihui Xie's excellent documentation in the R Markdown Definitive guide here: https://bookdown.org/yihui/rmarkdown/websites.html
 
 Or if you prefer pithy commentary, feel free to follow the tutorial on my Medium article (MARSHALL DON'T FORGET TO WRITE THE MEDIUM ARTICLE AAARGG)
 
@@ -36,7 +36,6 @@ I'm a Pythonista, R Pirate, SQL Monkey and Data Nerd. I'm also an expert with so
 
 
 </div>
-
 </div>
 
 

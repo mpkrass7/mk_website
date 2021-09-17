@@ -15,7 +15,9 @@ output:
 
 ## Looking at US migration patterns with Streamlit
 
+At DataRobot, I had a project in collaboration with the office of Housing and Urban Development (HUD). They asked us to look at some form of movement data and tell them what where people were moving in the wake of Covid-19. At the time of the project, the 2020 census data had not yet been released, and finding where people were moving was nearly impossible without buying a large dataset. Saddened but still interested in migration patterns generally, I decided to grab the US migration data from ipums from 2019 and build a Streamlit app out of it.
 
+For those who haven't used Streamlit, it makes building simple web apps really easy. Check it out [here](https://streamlit.io/)
 
 View it in full screen [here](https://share.streamlit.io/mpkrass7/solid-octo-robot/migration_app.py){target="_blank"} (it's better)
 
@@ -25,3 +27,6 @@ knitr::include_app(
   height = '900px'
   )
 ```
+
+Feel free to clone the repo [here](https://github.com/mpkrass7/solid-octo-robot)
+

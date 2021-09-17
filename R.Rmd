@@ -31,3 +31,9 @@ knitr::include_url(
 ```
 
 
+#### Do you like Shiny and want persistent storage for free?
+
+Follow the Medium article I wrote [here](https://medium.com/swlh/two-way-analytics-with-r-shiny-and-pokemon-e9eae225fd46)
+Or look at my repo [here](https://github.com/mpkrass7/shiny_pokemon)
+
+
