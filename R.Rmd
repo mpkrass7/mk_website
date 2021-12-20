@@ -13,7 +13,7 @@ output:
 }
 </style>
 
-# Analyzing and surveying Pokemon data using PCA, Databases and Shiny
+## Analyzing and surveying Pokemon data using PCA, Databases and Shiny
 
 I spent much of my time at PNC Bank building web apps using R Shiny. One particular application that ate many hours of my time was called the 'WEASEL'. Effectively it was a Shiny app that served as a CRUD application for submitting project management workflow in Treasury Management. If it sounds boring, you're right operationally but the app building piece of it was pretty fun. This application unfortunately involves PII data and is thus lost to the public. 
 

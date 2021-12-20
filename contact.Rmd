@@ -10,7 +10,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# How to get in touch with me:
+## How to get in touch with me:
 
 **Professional Methods:** See the 'CV' section to look at my resume and find the established professional methods of contact
 

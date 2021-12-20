@@ -31,11 +31,12 @@ All you have to do is follow one chapter of Yihui Xie's excellent documentation 
 
 Or if you prefer pithy commentary, feel free to follow the tutorial on my Medium article (MARSHALL DON'T FORGET TO WRITE THE MEDIUM ARTICLE AAARGG)
 
+If you'd like to clone my [repo](https://github.com/mpkrass7/mk_website) as an example go right ahead!
+
 ### About me
-I'm a Pythonista, R Pirate, SQL Monkey and Data Nerd. I'm also an expert with some BI tools like Tableau and Alteryx but I tell everyone I hate using them because I think coding is more fun.
+I'm a Pythonista, R Pirate, Machine Learning Enthusiast, SQL Monkey, and Data Nerd. I'm also an expert with some BI tools like Tableau and Alteryx but I tell everyone I hate using them because I think coding is more fun.
 
 
 </div>
 </div>
-
 

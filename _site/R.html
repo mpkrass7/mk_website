@@ -11,10 +11,10 @@
 
 
 
-<title>R.utf8</title>
+<title>R.knit</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/darkly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -248,14 +248,14 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fas fa-gear"></span>
+    <span class="fa fa-gear"></span>
      
     Some Projects
      
@@ -263,7 +263,11 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="R.html">R</a>
+      <a href="R.html">
+        <span class="fab fab-r-project"></span>
+         
+        R
+      </a>
     </li>
     <li>
       <a href="python.html">
@@ -288,7 +292,7 @@ $(document).ready(function () {
       <ul class="nav navbar-nav navbar-right">
         <li>
   <a href="contact.html">
-    <span class="fas fa-info"></span>
+    <span class="fa fa-info"></span>
      
     Contact
   </a>
@@ -313,20 +317,17 @@ $(document).ready(function () {
   margin-right: auto;
 }
 </style>
-<div id="analyzing-and-surveying-pokemon-data-using-pca-databases-and-shiny" class="section level1">
-<h1>Analyzing and surveying Pokemon data using PCA, Databases and Shiny</h1>
+<div id="analyzing-and-surveying-pokemon-data-using-pca-databases-and-shiny" class="section level2">
+<h2>Analyzing and surveying Pokemon data using PCA, Databases and Shiny</h2>
 <p>I spent much of my time at PNC Bank building web apps using R Shiny. One particular application that ate many hours of my time was called the ‘WEASEL’. Effectively it was a Shiny app that served as a CRUD application for submitting project management workflow in Treasury Management. If it sounds boring, you’re right operationally but the app building piece of it was pretty fun. This application unfortunately involves PII data and is thus lost to the public.</p>
 <p>As a result of my foray into persistent data storage, however, I decided to make a different app that is alive and well for public consumption, and it is very much about Pokemon. In addition to the database piece I have a pretty pithy analysis page that uses Principal Component Analysis to put Pokemon on a two-dimensional plane for some directional comparison. Ever wonder how similar Psyduck is to Bulbasaur? You can find that out here!</p>
 <p>View it in full screen <a href="https://marshallp.shinyapps.io/pokeshiny/" target="_blank">here</a> (it’s better)</p>
 <p>Don’t forget to submit your favorite Pokemon!</p>
 <iframe src="https://marshallp.shinyapps.io/pokeshiny/" width="1248" height="900px">
 </iframe>
-<div id="repo" class="section level3">
-<h3><a href="https://github.com/mpkrass7/shiny_pokemon">Repo</a></h3>
 <div id="do-you-like-shiny-and-want-persistent-storage-for-free" class="section level4">
 <h4>Do you like Shiny and want persistent storage for free?</h4>
-<p>Follow the Medium article I wrote <a href="https://medium.com/swlh/two-way-analytics-with-r-shiny-and-pokemon-e9eae225fd46">here</a></p>
-</div>
+<p>Follow the Medium article I wrote <a href="https://medium.com/swlh/two-way-analytics-with-r-shiny-and-pokemon-e9eae225fd46">here</a> Or look at my repo <a href="https://github.com/mpkrass7/shiny_pokemon">here</a></p>
 </div>
 </div>
 

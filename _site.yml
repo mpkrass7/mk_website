@@ -9,6 +9,7 @@ navbar:
       icon: fa-gear
       menu:
       - text: "R"
+        icon: fab-r-project
         href: R.html
       - text: "Python"
         icon: ion-social-python
